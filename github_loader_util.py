@@ -8,7 +8,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import DeepLake
 
-STORAGE_DIR =  Path(os.path.dirname(os.path.abspath(__file__))) / "storage"
+STORAGE_DIR = Path(os.path.dirname(os.path.abspath(__file__))) / "storage"
 GITHUB_CLONE_DIR = STORAGE_DIR / "github_clones"
 
 DEFAULT_GLOBS = (
